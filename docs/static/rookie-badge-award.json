@@ -1,0 +1,14 @@
+{
+  "uid": "a1b2c3d4e5",
+  "recipient": {
+    "type": "email",
+    "identity": "gradient93@gmail.com",
+    "hashed": false
+  },
+  "issuedOn":  "2017-01-31T15:32:00+02:00",
+  "badge": "http://gardient.github.io/rookie-badger/static/rookie-badge-class.json",
+  "verify": {
+    "type": "hosted",
+    "url": "http://gardient.github.io/rookie-badger/static/rookie-badge-award.json"
+  }
+}
