@@ -1,1 +1,1 @@
-jekyll build --destination ../docs
+jekyll build -d ../docs
