@@ -1,7 +1,7 @@
 {
     "name": "Rookie Badge Issuer",
     "description": "Issues great new Open Badges to self.",
-    "image": "http://yoursite.com/rookie-badge-issuer.png",
-    "criteria": "http://yoursite.com/rookie-badge-criteria.html",
-    "issuer": "http://yoursite.com/badge-issuer.json"
+    "image": "http://gardient.github.io/rookie-badger/rookie-badge-issuer.png",
+    "criteria": "http://gardient.github.io/rookie-badger/rookie-badge-criteria.html",
+    "issuer": "http://gardient.github.io/rookie-badger/badge-issuer.json"
 }
