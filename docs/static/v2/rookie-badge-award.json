@@ -6,10 +6,30 @@
         "type": "email",
         "hashed": true,
         "salt": "deadsea",
-        "identity": "sha256$bb171095b707be23068fa23d284ff294ce5437d74ac2c87775f946e9e4bedc43"
+        "identity": "sha256$b327c3388160925009ab3091af618c5a3210e841edb70c92df6df389a3828320"
     },
     "issuedOn": "2017-02-01T12:37:00+02:00",
-    "badge": "https://gardient.github.io/rookie-badger/static/v2/rookie-badge-class.json",
+    "badge": {
+        "id": "https://gardient.github.io/rookie-badger/static/v2/rookie-badge-class.json",
+        "type": "BadgeClass",
+        "name": "Rookie Badger",
+        "description": "Awarded to gardient",
+        "image": "https://gardient.github.io/rookie-badger/static/rookie-badge-issuer.png",
+        "criteria": {
+            "id": "https://gardient.github.io/rookie-badger/rookie-badge-criteria/",
+            "narrative": "Know the creator of this Badge and ask him for it."
+        },
+        "issuer": {
+            "type": "Issuer",
+            "id": "https://gardient.github.io/rookie-badger/static/v2/rookie-issuer.json",
+            "name": "Gardient, rookie badge issuer",
+            "image": "https://gardient.github.io/rookie-badger/static/rookie-badge-issuer.png",
+            "url": "https://gardient.github.io/rookie-badger/",
+            "email": "contact@example.org",
+            "publicKey": "https://gardient.github.io/rookie-badger/publicKey.json",
+            "revocationList": "https://gardient.github.io/rookie-badger/revocationList.json"
+        }
+    },
     "verification": {
         "type": "hosted"
     }
