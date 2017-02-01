@@ -1,0 +1,16 @@
+{
+    "@context": "https://w3id.org/openbadges/v2",
+    "type": "Assertion",
+    "id": "https://gardient.github.io/rookie-badger/static/v2/rookie-badge-award.json",
+    "recipient": {
+        "type": "email",
+        "hashed": true,
+        "salt": "deadsea",
+        "identity": "sha256$bb171095b707be23068fa23d284ff294ce5437d74ac2c87775f946e9e4bedc43"
+    },
+    "issuedOn": "2017-02-01T12:37:00+02:00",
+    "badge": "https://gardient.github.io/rookie-badger/static/v2/rookie-badge-class.json",
+    "verification": {
+        "type": "hosted"
+    }
+}

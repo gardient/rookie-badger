@@ -1,0 +1,11 @@
+{
+    "@context": "https://w3id.org/openbadges/v2",
+    "type": "Issuer",
+    "id": "https://gardient.github.io/rookie-badger/static/v2/rookie-issuer.json",
+    "name": "Gardient, rookie badge issuer",
+    "image": "https://gardient.github.io/rookie-badger/static/rookie-badge-issuer.png",
+    "url": "https://gardient.github.io/rookie-badger/",
+    "email": "contact@example.org",
+    "publicKey": "https://gardient.github.io/rookie-badger/static/v2/revocationList.json",
+    "revocationList": "https://gardient.github.io/rookie-badger/static/v2/revocationList.json"
+}

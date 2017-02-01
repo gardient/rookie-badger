@@ -1,0 +1,22 @@
+{
+    "@context": "https://w3id.org/openbadges/v2",
+    "id": "https://gardient.github.io/rookie-badger/static/v2/rookie-badge-class.json",
+    "type": "BadgeClass",
+    "name": "Rookie Badger",
+    "description": "Awarded to gardient",
+    "image": "https://gardient.github.io/rookie-badger/static/rookie-badge-issuer.png",
+    "criteria": {
+        "id": "https://gardient.github.io/rookie-badger/rookie-badge-criteria/",
+        "narrative": "Know the creator of this Badge and ask him for it."
+    },
+    "issuer": {
+        "type": "Issuer",
+        "id": "https://gardient.github.io/rookie-badger/static/v2/rookie-issuer.json",
+        "name": "Gardient, rookie badge issuer",
+        "image": "https://gardient.github.io/rookie-badger/static/rookie-badge-issuer.png",
+        "url": "https://gardient.github.io/rookie-badger/",
+        "email": "contact@example.org",
+        "publicKey": "https://gardient.github.io/rookie-badger/publicKey.json",
+        "revocationList": "https://gardient.github.io/rookie-badger/revocationList.json"
+    }
+}
