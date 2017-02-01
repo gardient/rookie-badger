@@ -1,0 +1,10 @@
+{
+    "@context": "https://w3id.org/openbadges/v1",
+    "type": "BadgeClass",
+    "id": "http://gardient.github.io/rookie-badger/static/v1.1/rookie-badge-class.json",
+    "name": "Rookie Badge Issuer",
+    "description": "Issues great new Open Badges to self.",
+    "image": "http://gardient.github.io/rookie-badger/static/rookie-badge-issuer.png",
+    "criteria": "http://gardient.github.io/rookie-badger/rookie-badge-criteria.html",
+    "issuer": "http://gardient.github.io/rookie-badger/static/badge-issuer.json"
+}

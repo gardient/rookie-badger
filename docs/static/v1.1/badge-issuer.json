@@ -1,0 +1,7 @@
+{
+    "@context": "https://w3id.org/openbadges/v1",
+    "type": "Issuer",
+    "id": "http://gardient.github.io/rookie-badger/static/v1.1/issuer.json",
+    "name": "gardient, rookie badger",
+    "url": "http://gardient.github.io/rookie-badger"
+}
