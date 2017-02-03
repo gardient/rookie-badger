@@ -11,7 +11,7 @@
     "issuedOn": "2017-01-31T15:32:00+02:00",
     "badge": "https://gardient.github.io/rookie-badger/static/v1.1/rookie-badge-class.json",
     "verify": {
-        "type": "hosted",
-        "url": "https://gardient.github.io/rookie-badger/static/v1.1/rookie-badge-award.json"
+        "type": "signed",
+        "url": "https://gardient.github.io/rookie-badger/static/v1.1/revocationList.json"
     }
 }
