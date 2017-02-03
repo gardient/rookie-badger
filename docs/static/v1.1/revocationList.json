@@ -1,8 +1,8 @@
 {
     "@context": "https://w3id.org/openbadges/v2",
-    "id": "https://example.org/revocationList.json",
+    "id": "https://gardient.github.io/rookie-badger/static/v1.1/revocationList.json",
     "type": "RevocationList",
-    "issuer": "https://example.org/issuer",
+    "issuer": "https://gardient.github.io/rookie-badger/static/v1.1/badge-issuer.json",
     "revokedAssertions": [
         
     ]

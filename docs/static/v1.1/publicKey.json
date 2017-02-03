@@ -1,7 +1,0 @@
-{
-    "@context": "https://w3id.org/openbadges/v2",
-    "type": "CryptographicKey",
-    "id": "https://gardient.github.io/rookie-badger/static/v1.1/revocationList.json",
-    "owner": "https://gardient.github.io/rookie-badger/static/v1.1/rookie-issuer.json",
-    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAngXVLsl6jJAHsClPgvyM\nvpNUFuDqu0M5L+m7nFaJdEY6kHQNBHEKf3CwxYb41ZaSAck+B2OhOhjLxC/Izq9g\n2tk3GtqkJRusIJIxGSGa4h5rtE7bpaw8ES3n1rQ1SCvq7HDuX0WppSGEw2MbgNsn\nZoELFv4brgOyin7WVFWaTfO4ibbkGJgfa8vlL0GGTTRa91aQVCTfX+vEuAJkoiij\nVQNhHmTVTv6Z8TpTjkoHsXGBwMytKG43vtp9XqrmONz028qbDcE4cQDFR+PDITjK\nlWEETYZhjzQO7m+Lb9ipOdW0YmE+SDMpjcqhdZJiQ1OnyzAPX714HY08eGawu4Qf\n0QIDAQAB\n-----END PUBLIC KEY-----\n"
-}
