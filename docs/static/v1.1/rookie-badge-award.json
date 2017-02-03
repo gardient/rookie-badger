@@ -12,6 +12,6 @@
     "badge": "https://gardient.github.io/rookie-badger/static/v1.1/rookie-badge-class.json",
     "verify": {
         "type": "signed",
-        "url": "https://gardient.github.io/rookie-badger/static/v1.1/revocationList.json"
+        "url": "https://gardient.github.io/rookie-badger/static/v1.1/publicKey.json"
     }
 }
