@@ -5,8 +5,9 @@
     "uid": "a1b2c3d4e5",
     "recipient": {
         "type": "email",
-        "identity": "gradient93@gmail.com",
-        "hashed": false
+        "identity": "sha256$b327c3388160925009ab3091af618c5a3210e841edb70c92df6df389a3828320",
+        "hashed": true,
+        "salt":"deadsea"
     },
     "issuedOn": "2017-01-31T15:32:00+02:00",
     "badge": "https://gardient.github.io/rookie-badger/static/v1.1/rookie-badge-class.json",
