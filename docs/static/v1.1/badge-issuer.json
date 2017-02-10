@@ -3,5 +3,6 @@
     "type": "Issuer",
     "id": "https://gardient.github.io/rookie-badger/static/v1.1/badge-issuer.json",
     "name": "gardient, rookie badger",
-    "url": "https://gardient.github.io/rookie-badger"
+    "url": "https://gardient.github.io/rookie-badger",
+    "revocationList": "https://gardient.github.io/rookie-badger/static/v1.1/revocationList.json"
 }

@@ -1,0 +1,17 @@
+{
+  "name": "qwe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sign.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^8.6.0"
+  },
+  "dependencies": {
+    "jws": "^3.1.4"
+  }
+}

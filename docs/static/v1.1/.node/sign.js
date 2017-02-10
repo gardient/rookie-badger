@@ -1,0 +1,19 @@
+let jws = require('jws')
+let fs = require('fs')
+
+let header = { alg: 'RS256' }
+
+let payload = JSON.stringify(JSON.parse(fs.readFileSync('../rookie-badge-award.json')))
+
+let privateKey = {
+  key: '-----BEGIN ENCRYPTED PRIVATE KEY-----\nMIIFDjBABgkqhkiG9w0BBQ0wMzAbBgkqhkiG9w0BBQwwDgQIe+oL0hthgWQCAggA\nMBQGCCqGSIb3DQMHBAjhgIjP01aDrwSCBMiw39klO5KEvOYpsIruRabdRYPDttTJ\n5mKsuXGQY8LnZHPKZf23zipHh759gP0ptUdBzqfTv8WoUXcD/8H+75CmNOc5YHEy\naLdWPysrDeng22tdS6HQSGN2uUM5Oqw/UpuT0Nfp0gbkgdifV69sb12OwKAJPV7c\nwMbBwYG5hMJ1niN/2oRLVCzDUi4X0AWb9Jw+XMNE1xpt98XNUwzmg1Tuzju9mLAM\n6prbtMgLW4GJNtazjE29Lhs5bn0SsRKqUV66uZZ3tdb2gtwGA1cHvT2s6Fj5jswr\nFwsYXsqTkUG33BsRhrG4plUMaifFrr4/FmZnVhlHdxf3m83aAilTia7T8guETjQy\nNaEdQ3L+haLdD7+RJFSRq7cQZtna4z1nvoFFrWDPct2pjGTqNFY2wAN1FUgKEioT\nd63XwKWW/MtExsdUOxkWMKGEgna7vEkivwNkVbxFFQRJlj3H5hrDkNXrAFM7BeeC\nugrp7wGhjHRQ8IQa9JhxtinxRCJXDfrJmXxYjrCusyQm7lK7MMLH3PkETLFRzpDg\nkY35DIjV7Osewti4QVt6KpTaGoCXN+9UbIdt1rU6bD0ngN8sMTe2f5QfGubg0y1N\npqxgw+ogXVlP0kPPUnclQaeuMf14iqYY5SpEGuQ2SjvHYQaO7gMYbiACW2s4QwXq\nEh78mrzBM95h9M4FRSO7QQqRM+GHQucUkI9dOFqb1DkLdlEjv0QbJY3TlTqx1CIn\n3e8fxR6CaGTFVSjwT0yq6ghAH2ifc0hJNPt0y93B0COZ0lcAZiZfvPDL1Za1Wc4J\nUkmw1ltdcHgYwJRkEwddiKgrVJwTQnMGplEPqIEc5SqEa3mr8wp1r/Xa+BrYWq3h\naqQONflaXekvahJ0qzaDvMkL5Mb8LXU7JqhuNtHAhjVVly2rlagKnina8NpV/RqX\nfNFfH+s7t1KhxtqtyYIn3S+O9xzPSbQmUP/G2qQCxofmhOfo9xbBNbRPt54evLiW\nyLZtzghaA+7dM7e0VaXdTMIXZgvGh+NWORROTYGvZ36XVjPeGRXpUnO9oDt2lZc9\nXivfI4yfUA9+2aRR4WagUH4ac4NWLAx3xOvo0KMtVJEGk7N9VQ3ii6EeOYTfAyMw\nQEdAfG9+bbWkkvKQWRuvNooTwwP/7KSb5pvR8hAduSEONAscemA+TqO4aYZy+hgY\nNbAibrfh2S8iZOwianh6n3+g+/+iHY2eDI1jeicZUZ9PBZhKo0Rss1e0ig9y0l+k\n6u/a4Lk31oNGtPoHpbBraDBbIR/8Ko5fRmVmGCsLBGL3To71wUfyWPccwzlK7xxu\nafanKNUa++rSDU1xUy/fPHX6XyQdy1mZ9JukPrg9UNtTFBMAdC+HpNuUOUqLIcuv\nnP72em9ZKB30PPlRZwQetcwG8vxE3zE2cZ38HSpMtjoyO5yEPG4zgAiCE6TQYHJ0\nBBwrHaiY76znpagRhWBlxrkSWvr+/zLk9IpeHEGfqmCLvWK34zXRJGv9bxa4Iyig\nejEq24mqK+6PB1APBU9qUA05gndKUADZdA4zl6tvbO7w8IHMGtLPlCojqJ8xmZHz\nl85yfs0awjDoCLH4RCasr/NYBZOQmS+t7auykoSeEb/1QXnonHzvv0ZsONOwOhwv\np9E=\n-----END ENCRYPTED PRIVATE KEY-----\n',
+  passphrase: 'Test.123'
+}
+
+var signed = jws.sign({
+  header,
+  payload,
+  privateKey
+})
+
+fs.writeFileSync('../rookie-badge-award.jws.json', signed)
